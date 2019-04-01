@@ -1,5 +1,6 @@
 'use strict';
 /**
+ * converts a binnary array to a number
  * @param {Array} arr
  * @return {Number} convertedNumber
  */

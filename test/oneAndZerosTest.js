@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const binaryArrayToNumber = require('../src/onesAndZeros');
+const binaryArrayToNumber = require('../src/onesAndZeros/onesAndZeros');
 
 describe("One's and Zero's", () => {
     it('Example tests', () => {
@@ -9,3 +9,4 @@ describe("One's and Zero's", () => {
         assert.strictEqual(binaryArrayToNumber([0, 1, 1, 0]), 6);
     });
 });
+
